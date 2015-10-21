@@ -9,7 +9,7 @@
 
 Graphics::Graphics(){
 	SDL_CreateWindowAndRenderer(globals::SCREEN_WIDTH, globals::SCREEN_HEIGHT, 0, &this->_window, &this->_renderer);
-	SDL_SetWindowTitle(this->_window, "Cavestory - Computer Graphics");
+	SDL_SetWindowTitle(this->_window, "Cavestory");
 }
 Graphics::~Graphics(){
 	SDL_DestroyWindow(this->_window);
