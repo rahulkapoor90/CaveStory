@@ -10,7 +10,10 @@ While using stoi function dev c++ will run into error, so it is recommended to g
 
 std::stoi was introduced in C++11 , Add -std=c++11 to your compiler options since you are most likely using an older and deprecated version or you can try going to Orwell dev c++ which has all the latest C++11 standards.
 
+# Screenshot
+
+![](http://i.imgur.com/dEqIs1d.png)
 
 # Contributions
 
-Contributions are welcome.
+Contributions are welcome. if you see any issue on the Web App then open an issue and if you think you can fix it then start working on it by forking this project.

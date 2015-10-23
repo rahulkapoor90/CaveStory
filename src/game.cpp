@@ -55,7 +55,7 @@ void Game::gameLoop() {
 			this->_player.moveRight();
 		}
 		
-		if(input.wasKeyPressed(SDL_SCANCODE_Z) == true) {
+		if(input.wasKeyPressed(SDL_SCANCODE_W) == true) {
 			this->_player.jump();
 		}
 		
