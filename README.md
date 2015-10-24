@@ -16,4 +16,4 @@ std::stoi was introduced in C++11 , Add -std=c++11 to your compiler options sinc
 
 # Contributions
 
-Contributions are welcome. if you see any issue on the Web App then open an issue and if you think you can fix it then start working on it by forking this project.
+Contributions are welcome. if you see any issue then open an issue and if you think you can fix it then start working on it by forking this project.
