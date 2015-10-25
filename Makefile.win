@@ -4,8 +4,8 @@
 CPP      = g++.exe
 CC       = gcc.exe
 WINDRES  = windres.exe
-OBJ      = main.o graphics.o game.o input.o sprite.o animatedsprite.o player.o level.o tinyxml2.o tile.o animatedtile.o hud.o
-LINKOBJ  = main.o graphics.o game.o input.o sprite.o animatedsprite.o player.o level.o tinyxml2.o tile.o animatedtile.o hud.o
+OBJ      = main.o graphics.o game.o input.o sprite.o animatedsprite.o player.o level.o tinyxml2.o tile.o animatedtile.o hud.o enemy.o
+LINKOBJ  = main.o graphics.o game.o input.o sprite.o animatedsprite.o player.o level.o tinyxml2.o tile.o animatedtile.o hud.o enemy.o
 LIBS     = -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib" -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib" -L"C:/SDL2-2.0.3/x86_64-w64-mingw32/lib" -L"C:/SDL2_image-2.0.0/x86_64-w64-mingw32/lib" -static-libgcc -mwindows -lmingw32 -lSDL2main -lSDL2 -lSDL2_image
 INCS     = -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include"
 CXXINCS  = -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"C:/SDL2-2.0.3/x86_64-w64-mingw32/include" -I"C:/SDL2_image-2.0.0/x86_64-w64-mingw32/include"
@@ -59,3 +59,6 @@ animatedtile.o: animatedtile.cpp
 
 hud.o: hud.cpp
 	$(CPP) -c hud.cpp -o hud.o $(CXXFLAGS)
+
+enemy.o: enemy.cpp
+	$(CPP) -c enemy.cpp -o enemy.o $(CXXFLAGS)
