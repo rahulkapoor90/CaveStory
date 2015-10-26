@@ -28,11 +28,11 @@ Keys to play
 # Questions Asked on Stackoverflow
 These are the questions i asked during the project's development, i am adding them here for reference.
 
-![Unable to move character to right position using SDL?](http://stackoverflow.com/questions/33141841/unable-to-move-character-to-right-position-using-sdl)
+[Unable to move character to right position using SDL?](http://stackoverflow.com/questions/33141841/unable-to-move-character-to-right-position-using-sdl)
 
-![Undefined reference to 'SDL_main' while using Dev C++](http://stackoverflow.com/questions/33082126/undefined-reference-to-sdl-main-while-using-dev-c)
+[Undefined reference to 'SDL_main' while using Dev C++](http://stackoverflow.com/questions/33082126/undefined-reference-to-sdl-main-while-using-dev-c)
 
-![Unable to move character to right position using SDL?](http://gamedev.stackexchange.com/questions/109725/unable-to-move-character-to-right-position-using-sdl)
+[Unable to move character to right position using SDL?](http://gamedev.stackexchange.com/questions/109725/unable-to-move-character-to-right-position-using-sdl)
 
 # Contributions
 
