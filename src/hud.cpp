@@ -18,7 +18,9 @@ HUD::HUD(Graphics &graphics, Player &player) {
 	
 }
 
-void HUD::update(int elapsedTime){
+void HUD::update(int elapsedTime, Player &player){
+	this->_player = player;
+	
 	this->_healthNumber1.setSourceRectX(8 * this->_player.getCurrentHealth());
 	
 	//calculate the width of the health bar
