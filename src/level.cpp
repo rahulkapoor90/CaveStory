@@ -327,7 +327,7 @@ void Level::loadMap(std::string mapName, Graphics &graphics){
 							std::floor(y) * globals::SPRITE_SCALE)));
 							
 						}
-						pObject = pObject->NextSiblingElement("objectgroup");
+						pObject = pObject->NextSiblingElement("object");
 					}
 				}
 			}
