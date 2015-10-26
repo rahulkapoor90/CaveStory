@@ -23,12 +23,10 @@ Keys to play
 
 ![](http://i.imgur.com/dq7ag5A.png)
 
-# Map 2
-
 ![] (http://i.imgur.com/j0Tuqqj.png)
 
 # Questions Asked on Stackoverflow
-These are the questions i asked during the project's development, i am adding them for reference.
+These are the questions i asked during the project's development, i am adding them here for reference.
 
 ![Unable to move character to right position using SDL?](http://stackoverflow.com/questions/33141841/unable-to-move-character-to-right-position-using-sdl)
 
