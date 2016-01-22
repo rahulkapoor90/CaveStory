@@ -19,7 +19,7 @@ Keys to play
 * Z jump
 * Esc quit
 
-# Screenshot
+# Screenshots
 
 ![](http://i.imgur.com/dq7ag5A.png)
 
